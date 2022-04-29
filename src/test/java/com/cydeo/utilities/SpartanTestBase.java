@@ -11,7 +11,7 @@ public abstract class SpartanTestBase {
     public static void init(){
         RestAssured.baseURI = "http://54.234.255.231:8000";
 
-        String dbUrl = "";
+        String dbUrl = "jdbc:oracle:thin:@54.234.255.231:1521:XE";
         String dbUsername = "SP";
         String dbPassword = "SP";
 
