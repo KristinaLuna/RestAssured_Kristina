@@ -1,11 +1,9 @@
 package com.cydeo.day5;
-import org.hamcrest.MatcherAssert;
-import org.hamcrest.Matchers;
+import java.util.Arrays;
+import java.util.List;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
 
@@ -13,7 +11,7 @@ import static org.hamcrest.Matchers.*;
 public class HamcrestMatcherIntro {
 
 
-    @DisplayName("Assertion witn Numbers")
+    @DisplayName("Assertion with Numbers")
     @Test
     public void test1() {
 
